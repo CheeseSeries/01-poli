@@ -29,10 +29,81 @@ header a {
     color: #FFFFFF;
     text-decoration: none;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2D2746;
+}
 .num1 {
     display: flex;
-    width: 1000px; flex-direction: row;
+    width: 1000px; 
+    flex-direction: row;
     justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+footer {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-
+    padding: 30px;
+    padding-bottom: 50px;
+    color: #2D2746;
+    font-size: 16px;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.num1 article {
+    padding: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+.mezih1 {
+    width: 1000px;
+    padding-bottom: 20px;
+}
+.num2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 300px;
+    padding-bottom: 30px;
+}
+.num2 div {
+    background-color: #EBEAFA; 
+    width: 28%;
+    padding: 20px;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+.num2 h1 {
+    font-weight: 700;
+    font-size: 18px;
+}
+.f1 {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 273px;
+}
+.f2 {
+    display: flex;
+    justify-content: space-between;
+}
+.num3 {
+    width: 1000px;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 273px;
 }
